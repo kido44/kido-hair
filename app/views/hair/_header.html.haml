@@ -1,0 +1,20 @@
+.header
+  .header-top
+    .header-inner.clearfix
+      %h1 hair.com
+      %p やりたいヘアスタイルがきっと見つかる
+    .menu
+      %ul
+        =link_to  "#" do 
+          %li ヘアカタログ
+        =link_to  "#" do 
+          %li スタイリスト
+  .header-search
+    .style-search
+      長さ・スタイルから探す
+      %select.sources.custom-select.sources{name:"search", style:"Source Type"}
+        %option{value:"ショート"} ショート
+        %option{value:"ミディアム"} ミディアム
+        %option{value:"ロング"} ロング
+    %select#header_search_cat1{:name => "search_cat1", :style => "display: none;"}
+ 
