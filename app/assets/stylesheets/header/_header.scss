@@ -6,7 +6,6 @@
   .header-top{
     height:80px;
     padding-left:40px;
-    background-color: rgb(243, 232, 240);
 
     .header-inner{
       float: left;
@@ -19,7 +18,7 @@
       p{
         padding-left: 60px;
         padding-top: 7px;
-        font-size: 20px;
+        font-size: 17px;
         line-height:80px;
       }
     }
@@ -37,10 +36,33 @@
           color:black;
         }
       }
-      }
+    }
   }
   .header-search{
+    width:100%;
     height:70px;
     padding: 20px;
+    background-color: rgb(240, 239, 239);
+
+    .style-search{
+      padding-right: 40px;
+      float: right;   
+    }
+    select{
+        width: 350px;
+        height:40px;
+        background-color:white;
+        transition    : .3s;
+      }
+    .place-search{
+      padding-left: 40px;
+    }
+    .search2-botton{
+      width: 100px;
+      height:40px;
+      margin-left:45px;
+      border-radius : 5%;          /* 角丸       */
+      transition    : .3s;         /* なめらか変化 */
+    }
   }
 }
