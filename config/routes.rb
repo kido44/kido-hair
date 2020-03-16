@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'hair/index'
-
-  root "hair#index"
+  root "home#index"
+  resources :details
 end

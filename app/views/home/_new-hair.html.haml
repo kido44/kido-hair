@@ -1,0 +1,13 @@
+.hair-new
+  .inner
+    %h1 新着スタイル 
+    %ul.hair-list
+      -# %li.hair-list1
+      -#   =image_tag "10747591728_IMG_4896.JPG"
+      -#   %span.hair-name ロング
+
+      - @hairs.each do |h|
+        %li.hair-list1
+          = image_tag h.images[0].file
+          %span.hair-name
+            = h.name
