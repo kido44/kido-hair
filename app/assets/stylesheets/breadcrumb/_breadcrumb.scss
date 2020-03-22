@@ -1,39 +1,30 @@
 .breadcrumb {
-  margin: 0;
-  padding: 0;
-}
+  line-height:66px;
+  margin-left: 50px;
 
-.breadcrumb li {
-  display: inline;/*横に並ぶように*/
-  list-style: none;
-  font-weight: bold;/*太字*/
-}
+  li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    
 
-.breadcrumb li:after {
-  /* >を表示*/
-  content: '>';
-  padding: 0 0.2em;
-  color: #555;
-}
+    &:after {
+      content: '>';
+      padding: 0 0.2em;
+      color: #555;
+    }
 
-.breadcrumb li:last-child:after {
-  content: '';
-}
+    &:last-child:after {
+      content: '';
+    }
 
-.breadcrumb li a {
-  text-decoration: none;
-  color: gray;
-}
+    a {
+      text-decoration: none;
+      color: #575b5d;
 
-.breadcrumb li:first-child a:before {
-  /*家アイコン*/
-  font-family: FontAwesome;
-  content: '\f015';
-  font-weight: normal;
-  font-size: 1.1em;
-  color: #2e7fea;
-}
-
-.breadcrumb li a:hover {
-  text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
