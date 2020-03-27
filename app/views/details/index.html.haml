@@ -1,3 +1,57 @@
 = render "layouts/header"
 = render "layouts/breadcrumb"
-= render "layouts/footer"
+.main-details
+  .main-left
+    %h1 マッシュショート
+    .details-image
+      = image_tag "7587792928_IMG_3808.JPG", class:'image1'
+      = image_tag "IMG_1606.jpg",class:'image2'
+    .hair-description
+      %span 少し長めの前髪、サイドとつながるマッシュラインがオシャレなショート。
+      %span 襟足は短めにきゅっとひきしめ、
+      %span サイドはギリギリ耳にかけれるようにします。
+      %span 表面は頭の丸みがキレイにでるようにカットしています。
+      %span ウェットな質感でオシャレな雰囲気に。
+    %h2 ヘアスタイル情報
+    %h2 スタイリング方法
+    %p 襟足は浮かないようにヘアオイルをしっかりつけ、表面と前髪は毛先に少しだけつけます。
+    %p つけ過ぎ注意！
+    %h2 オーダー方法
+    %h3 カット
+    %p 襟足はギリギリまで短くカットします。
+    %p サイドは、耳にかけれるギリギリの長さに設定。サイドとつながるようにマッシュにカット。
+    %p 頭の形が良く見えるように、丸みをつけるレイヤーを入れます。
+    %h3 カラー
+    %p 10レベルのラベンダーアッシュでオールカラー。
+    %p 色持ちと柔らかさを重視してます。
+    %table.data{style:"border-color:#ddd;"}
+      %tbody
+        %tr
+          %td{style:"width:432px;"}メニュー
+          %td{style:"width:432px;"}カット、カラー
+        %tr{style: "border: 1px;"}
+
+    -# %table.table_border_horizontal{style: "border-color: #ddd;"}
+    -#   %tbody
+    -#     %tr
+    -#       %td{:style => "width: 432px;"} メニュー
+    -#       %td{:style => "width: 450px;"} カット, カラー
+    -#     %tr{:style => "border-color: #fff;"}
+    -#       %td{:style => "width: 432px;"} 料金
+    -#       %td{:style => "width: 450px;"} ￥14,000
+    -#     %tr
+    -#       %td{:style => "width: 432px;"} 時間
+    -#       %td{:style => "width: 450px;"} 90分
+    -#     %tr
+    -#       %td{:style => "width: 432px;"} スタイリング剤
+    -#       %td{:style => "width: 450px;"}
+    -#         %a{:href => "#", rel: "noopener noreferrer", :target => "_blank"} N.ポリッシュオイル
+    -#     %tr
+    -#       %td{:style => "width: 432px;"} ヘアアイロン
+    -#       %td{:style => "width: 450px;"}
+    -#         %a{:href => "#", :rel => "noopener nofollow noreferrer", target: "_blank"} ヘアビューロン 4D Plus ストレート
+    -#     %tr
+    -#       %td{:style => "width: 432px;"} 薬剤
+    -#       %td{:style => "width: 450px;"} エヌドット カラー,資生堂 プリミエンス
+
+= render "layouts/footer" 

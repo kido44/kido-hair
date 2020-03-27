@@ -1,3 +1,31 @@
-// Place all the styles related to the details controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-details{
+  .main-left{
+    h1{
+      font-size: large;
+      font-weight: bold;
+      color: #575b5d;
+      margin-left: 50px;
+      margin-bottom: 100px;
+    }
+  }
+  .details-image{
+    img{
+      width: 800px;
+      height:800px;
+      display:block;
+      border: 2px solid #999;
+      max-width: 500%;
+      margin: 0 auto;
+      margin-bottom: 100px;
+    }
+  }
+  .hair-description{
+    margin-left: 50px;
+    span{
+      display: block;
+      margin: 10px;
+      font-size: 25px;
+      color: #575b5d;
+    }
+  }
+}
