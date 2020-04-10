@@ -1,5 +1,7 @@
 .main-details{
   .main-left{
+    margin-left: 50px;
+    font-size: 15px;
     h1{
       font-size: large;
       font-weight: bold;
@@ -7,25 +9,34 @@
       margin-left: 50px;
       margin-bottom: 100px;
     }
-  }
-  .details-image{
-    img{
-      width: 800px;
-      height:800px;
-      display:block;
-      border: 2px solid #999;
-      max-width: 500%;
-      margin: 0 auto;
-      margin-bottom: 100px;
+    .details-image{
+      img{
+        width: 800px;
+        height:800px;
+        display:block;
+        border: 2px solid #999;
+        max-width: 500%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+      }
     }
-  }
-  .hair-description{
-    margin-left: 50px;
-    span{
-      display: block;
-      margin: 10px;
-      font-size: 25px;
-      color: #575b5d;
+    .hair-description{
+      span{
+        display: block;
+        margin: 10px;
+        font-size: 20px;
+        color: #575b5d;
+      }
     }
+    h2{
+      font-size: 120%;
+      padding-top: 10px;
+      line-height: 1.7;
+      font-weight: bold;
+    }
+      h2 .bb{
+        border-top: 1px solid #222;
+        border-bottom: 1px solid #222;
+      }
   }
 }
