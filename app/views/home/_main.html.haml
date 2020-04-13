@@ -1,0 +1,21 @@
+.main
+  .main-search
+    %h1 ヘアスタイル【長さ】検索
+    %ul
+      %li.length-image
+        =link_to "#" do 
+          .image
+            =image_tag "7587792928_IMG_3808.JPG"
+          %h3.info ショート
+      %li.length-image
+        =link_to "#" do 
+          .image
+            =image_tag "IMG_8747.JPG"
+          .info ミディアム
+      %li.length-image
+        =link_to "#" do 
+          .image
+            =image_tag "IMG_0955_Facetune_15-10-2019-10-39-16.jpg"
+          .info ロング
+        
+  = render "new-hair"

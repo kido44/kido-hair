@@ -1,0 +1,71 @@
+.main-details{
+  .main-left{
+    margin-left: 50px;
+    font-size: 15px;
+    h1{
+      font-size: large;
+      font-weight: bold;
+      color: #575b5d;
+      margin-left: 50px;
+      margin-bottom: 100px;
+    }
+    .details-image{
+      img{
+        width: 800px;
+        height:800px;
+        display:block;
+        border: 2px solid #999;
+        max-width: 500%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+      }
+    }
+    .hs{
+      padding:20px 0 20px 0;
+    }
+    .hair-description{
+      span{
+        display: block;
+        margin: 10px;
+        font-size: 20px;
+        color: #575b5d;
+      }
+    }
+    h2{
+      font-size: 120%;
+      padding: 10px 0 10px 0;
+      line-height: 1.7;
+      font-weight: bold;
+    }
+    h3{
+      font-weight: bold;
+      font-size: large;
+      padding-top:10px;
+    }
+    .border{
+      border-top: 1px solid #222;
+      border-bottom: 1px solid #222;
+      line-height: 1.6;
+    }
+    p{
+      padding:10px 10px;
+    }
+    tr{
+      border: 1px solid #bbb;
+      border-left: none;
+      border-right: none;
+      td{
+        padding:10px 10px;
+      }
+    }
+    .sl{
+      padding:20px 0 20px 0;
+    }
+    .stl-info{
+      border: 1px solid #cdcdcd;
+      margin: 10px 10px 10px 0;
+      background: #fcfcfc;
+      line-height: 2.4;
+    }
+  }
+}

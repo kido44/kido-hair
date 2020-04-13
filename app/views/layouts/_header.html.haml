@@ -1,0 +1,29 @@
+.header
+  .header-top
+    .header-inner.clearfix
+      %h1 hair.com
+      %p ---   やりたいヘアスタイルがきっと見つかる   ---
+    .menu
+      %ul
+        =link_to "#" do 
+          %li
+            %h3 ヘアカタログ
+        =link_to  "#" do 
+          %li
+            %h3 スタイリスト
+  .header-search
+    .style-search
+      %select.search-botton{name:"search", style:"Source Type"}
+        %option.botton-text{value:"長さ・スタイルから決める"}   長さ・スタイルから決める
+        %option.botton-text{value:"ショート"} ショート
+        %option.botton-text{value:"ミディアム"} ミディアム
+        %option.botton-text{value:"ロング"} ロング
+      %input.search2-botton{type: "submit", value: "検  索"}/
+    .place-search
+      %select.search-botton{name:"search", style:"Source Type"}
+        %option.botton-text{value:"場所で探す"}   場所で探す
+        %option.botton-text{value:"東京"} 東京
+        %option.botton-text{value:"埼玉"} 埼玉
+        %option.botton-text{value:"神奈川"} 神奈川
+        %option.botton-text{value:"千葉"} 千葉
+      %input.search2-botton{type: "submit", value: "検  索"}/

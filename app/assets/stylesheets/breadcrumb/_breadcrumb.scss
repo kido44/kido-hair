@@ -1,0 +1,30 @@
+.breadcrumb {
+  line-height:66px;
+  margin-left: 50px;
+
+  li {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    
+
+    &:after {
+      content: '>';
+      padding: 0 0.2em;
+      color: #555;
+    }
+
+    &:last-child:after {
+      content: '';
+    }
+
+    a {
+      text-decoration: none;
+      color: #575b5d;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

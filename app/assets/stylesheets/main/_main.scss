@@ -1,0 +1,51 @@
+.main{
+  h1{
+      text-align: center;
+      font-size: 25px;
+    }
+  .main-search{
+    margin: 75px 0 75px 0;
+    ul{
+      margin: 72px 0 0 0;
+      .length-image{
+        margin-right: 13px;
+        margin-left: 13px;
+        width: 31%;
+        display: inline-block;
+        border: 1px solid #999;
+        position: relative;
+        a{
+          text-decoration: none;
+        }
+        .image{
+          display: block;
+          float: left;
+          width: 45%;
+          height: 170px;
+          overflow: hidden;
+          position: relative;
+        }
+        .info{
+          font-size: 114.285%;
+          font-weight: 700;
+          color:black;
+          position: absolute;
+          top:45%;
+          left:60%;
+        }
+      }
+    }
+  }
+  .hair-list{
+    margin: 72px 0 0 0;
+    .hair-list1{
+      width: 20%;
+      margin:25px;
+      display: inline-block;
+      vertical-align: top;
+      border: 1px solid #999;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}
