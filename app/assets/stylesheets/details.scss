@@ -20,6 +20,9 @@
         margin-bottom: 100px;
       }
     }
+    .hs{
+      padding:20px 0 20px 0;
+    }
     .hair-description{
       span{
         display: block;
@@ -30,13 +33,41 @@
     }
     h2{
       font-size: 120%;
-      padding-top: 10px;
+      padding: 10px 0 10px 0;
       line-height: 1.7;
       font-weight: bold;
     }
-      h2 .bb{
-        border-top: 1px solid #222;
-        border-bottom: 1px solid #222;
+    h3{
+      font-weight: bold;
+      font-size: large;
+      padding-top:10px;
+    }
+    .border{
+      border-top: 1px solid #222;
+      border-bottom: 1px solid #222;
+      line-height: 1.6;
+    }
+    p{
+      padding:10px 10px;
+    }
+    tr{
+      border: 1px solid #bbb;
+      border-left: none;
+      border-right: none;
+      td{
+        padding:10px 10px;
       }
+    }
+    .sl{
+      padding:20px 0 20px 0;
+    }
+    .stl-info{
+      border: 1px solid #cdcdcd;
+      margin: 10px 10px 10px 0;
+      background: #fcfcfc;
+      br{
+        margin: 5px 0 5px 0;
+      }
+    }
   }
 }
