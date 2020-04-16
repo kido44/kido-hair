@@ -8,6 +8,7 @@
 
       - @hairs.each do |h|
         %li.hair-list1
-          = image_tag h.images[0].file
-          %span.hair-name
-            = h.name
+          = link_to details_path do
+            = image_tag h.images[0].file
+            %span.hair-name
+              = h.name
