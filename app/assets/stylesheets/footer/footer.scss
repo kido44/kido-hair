@@ -1,3 +1,24 @@
-img{
-  width:100%;
+.footer{
+  width: 100%;
+  background:black;
+  color: white;
+  height:100px;
+  line-height: 100px;
+  ul{
+    display: flex;
+    float: left;
+    padding-left: 30px;
+    li{
+      padding-left: 15px;
+      font-size: 25px;
+    }
+  }
+  .footer-menu{
+    display:flex;
+    float: right;
+    font-size: 15px;
+    p{
+      padding-right:15px;
+    }
+  }
 }
